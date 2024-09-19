@@ -1,0 +1,11 @@
+/* pages/jkyz/jkyz.wxss */
+.box {  
+  margin: 20rpx 0; 
+}
+
+.box view.cu-bar {
+  margin-top: 20rpx; 
+}
+.cu-bar bg-white tabbar border shop{
+  width: 375rpx;
+}
