@@ -1,0 +1,9 @@
+<!--分类列表-->
+
+
+<view class="grid-list">
+  <navigator class="grid-item" wx:for="{{gridList}}" wx:key="id" url="/pages/jkyz/jkyz?id={{item.id}}&title={{item.name}}">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
