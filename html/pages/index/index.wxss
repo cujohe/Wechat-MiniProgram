@@ -1,0 +1,9 @@
+/**index.wxss**/
+page {  
+  display: flex;
+  flex-direction: column;
+}
+.swiper-container{
+  height: 150px;
+}
+

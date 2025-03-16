@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/jkyz/jkyz"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationStyle": "default",
+    "onReachBottomDistance": 50,
+    "navigationBarTitleText": "小程序"
+  },
+"tabBar":{
+  "list":[
+    {
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/books.png",
+      "selectedIconPath": "images/books-a.png"
+    },
+    {
+      "pagePath": "pages/list/list",
+      "text": "分类",
+      "iconPath": "images/cart.png",
+      "selectedIconPath": "images/cart-a.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "images/cart.png",
+      "selectedIconPath": "images/cart-a.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine-a.png"
+    }
+  ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

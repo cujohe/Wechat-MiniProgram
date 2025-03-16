@@ -1,0 +1,10 @@
+<!--pages/jkyz/jkyz.wxml-->
+
+
+<view class="grid-list">
+  <view class="grid-item" wx:for="{{List1}}" wx:key="id">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.body}}</text>
+    {{item.title}}
+  </view>
+</view>

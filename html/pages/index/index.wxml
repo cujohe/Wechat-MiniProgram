@@ -1,0 +1,43 @@
+<!--商城主页-->
+
+<swiper calss="swiper-container" indicator-dots circular>
+  <swiper-item style="display: flex;justify-content: center;">
+    <image src="{{imgSrc0}}" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item style="display: flex;justify-content: center;">
+    <image src="{{imgSrc1}}" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item style="display: flex;justify-content: center;">
+    <image src="{{imgSrc2}}" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item style="display: flex;justify-content: center;">
+    <image src="{{imgSrc3}}" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item style="display: flex;justify-content: center;">
+    <image src="{{imgSrc4}}" mode="widthFix"></image>
+  </swiper-item>
+</swiper>
+<view class=" margin-top cu-list grid col-4">
+  <view class="cu-item">
+    <view class="cuIcon-hot text-red">
+    </view>
+    <text>热卖</text>
+  </view>
+  <view class="cu-item">
+    <view class="cuIcon-moneybag   text-orange">
+    </view>
+    <text>积分</text>
+  </view>
+  <view class="cu-item">
+    <view class="cuIcon-clothesfill text-blue">
+    </view>
+    <text>优惠</text>
+  </view>
+  <view class="cu-item">
+    <view class="cuIcon-upstagefill text-cyan">
+    </view>
+    <text>品牌</text>
+  </view>
+</view>
+
+  
